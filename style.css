@@ -1,0 +1,153 @@
+.Mi-marquee{
+    background-color: rgba(0, 0, 0, 0.774);
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+.Mi-main{
+    background-image: url(assets/img/ligeramente-borrado-patron-estuco-palido-limpia.jpg) ;
+    background-position: center;
+    background-size: cover; 
+}
+
+.list-group-item {
+    border-bottom: 2px dashed #ccc; 
+}
+.list-group-item:last-child {
+    border-bottom: none; 
+}
+
+.li{
+    color:#34394B
+}
+
+.veggie-text {
+    font-style: italic;
+    color: green;
+}
+
+.ml-6{
+    margin-left: 1rem;
+}
+
+.w-65 {
+    width: 100%;
+}
+
+.fs-10{
+    font-size: 6.25rem;
+}
+
+.mb-8{
+    margin-bottom: 3rem;
+}
+
+.mb--5{
+    margin-bottom: -5vw;
+}
+.mb--1{
+    margin-bottom: -1vw;
+}
+.my-10r{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.modal-img{
+    width: 100%;
+}
+
+.marron{
+    color: #DDAB5D;
+}
+
+.marronc{
+    color:#F0815B;
+}
+
+.pb-50{
+    padding-bottom: 5rem;
+}
+
+.orange{
+    color: #fd7e14;
+}
+
+#linkbirre :hover{
+    color: lighten(#fd7e14, 20%);
+}
+
+.fs-7{
+    font-size: 0.75rem;
+}
+
+.fs-50{
+    font-size:40px;
+}
+
+.redred{
+    color: #B12C4A;
+}
+
+li{
+    cursor:pointer;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+li:hover{
+    color:#6f7485c9
+}
+
+/* Media query para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+    .Mi-header {
+        padding: 0px;
+    }
+
+    .Mi-marquee {
+        font-size: 14px;
+        height: 20px;
+    }
+
+    .Mi-main {
+        margin-bottom: 0; /* Ajusta el margen inferior para pantallas más pequeñas */
+    }
+    
+    .container-md {
+        max-width: 100%; /* Ajusta el ancho máximo del contenedor para pantallas más pequeñas */
+    }
+}
+
+
+.mb--5 {
+    margin-bottom: -2rem; /* Ajusta el margen en pantallas más pequeñas */
+}
+
+.mb--1 {
+    margin-bottom: -1rem;
+}
+
+.my-10r {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.w-65 {
+    width: 100%; /* Ajusta el ancho en pantallas más pequeñas */
+}
+
+.fs-10 {
+    font-size: 4rem; /* Ajusta el tamaño de la fuente en pantallas más pequeñas */
+}
+
+.mb-8 {
+    margin-bottom: 1.5rem; /* Ajusta el margen en pantallas más pequeñas */
+}
+
+.pb-50 {
+    padding-bottom: 2rem; /* Ajusta el relleno en pantallas más pequeñas */
+}
